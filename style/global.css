@@ -2,7 +2,7 @@
     --background: #e1dfdc; 
     --big-border: rgba(42, 52, 36, 1);
     --hours-hand: #060d2b;
-    --minutes-hand: rgb(103, 103, 103); /* and central dot */
+    --minutes-hand: rgb(103, 103, 103); 
     --seconds-hand: rgba(142, 96, 96, 0.9);
 }
 * {
