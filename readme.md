@@ -8,4 +8,4 @@
 
 ## ScreenShot
 
-![Image](https://github.com/CINPIS/ExercisestoGetFit/blob/main/AnalogClock/Screenshot.png?raw=true "Analog Clock")
+![Image](https://github.com/CINPIS/analogClock/blob/gh-pages/clock.png?raw=true "Analog Clock")
