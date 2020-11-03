@@ -1,0 +1,83 @@
+div.clock{
+    position: relative;
+    border-radius: 50%;
+    
+    margin: 0 3rem;
+    padding: 3rem;
+    width: 20rem;
+    height: 20rem;
+
+    background: url("../assets/clockkk.png") no-repeat;
+    background-position: 50%;
+    z-index: -1;
+    
+    border: 4px solid rgba(182, 101, 101, 0.666);
+    box-shadow: 0 0 0 3px rgb(111, 77, 77), 
+                0 0 0 13px var(--big-border),
+                inset 3px 3px 15px 5px rgba(48, 48, 48, 0.5);
+}
+
+.clock:before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+
+    background-color: #b3b1b1;
+    border-radius: 50%;
+
+    box-shadow: 1px 1px 1px rgb(172, 155, 155);
+
+    z-index: 99;
+    top: 9rem;
+    left: 9.3rem;
+}
+
+div.clock > div.clock-face{
+    position: relative;
+    transform: translateY(-3px);
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+div.clock div.clock-face div.clock-hand{
+    width: 50%;
+    border-radius: 5px;
+    height: 12px;
+    top: 50%;
+    transform: rotate(90deg);
+    position: absolute;
+    transform-origin: 100%;
+    transition: all 0.10s;
+    transition-timing-function: cubic-bezier(2,2,2,2);
+}
+
+div.clock div.clock-face div.hour-hand{
+    background-color: var(--hours-hand);
+    height: 8px;
+    width: 40%;
+    left: 1.5rem;
+    top: 6.5rem;
+    box-shadow: 1px 2px 2px rgb(157, 141, 141);
+}
+
+div.clock div.clock-face div.minutes-hand{
+    background-color: var(--minutes-hand);
+    height: 4px;
+    width: 50%;
+    left: 0.2rem;
+    top: 6.65rem;
+    box-shadow: 1px 2px 2px rgb(164, 148, 148);
+}
+
+div.clock div.clock-face div.seconds-hand{
+    background-color: var(--seconds-hand);
+    height: 2px;
+    width: 50%;
+    left: 0.1rem;
+    top: 6.7rem;
+    box-shadow: 1px 2px 2px rgb(164, 148, 148);
+    z-index: 2;
+}

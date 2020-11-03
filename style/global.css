@@ -1,0 +1,28 @@
+:root{
+    --background: #e1dfdc; 
+    --big-border: rgba(42, 52, 36, 1);
+    --hours-hand: #060d2b;
+    --minutes-hand: rgb(103, 103, 103); /* and central dot */
+    --seconds-hand: rgba(142, 96, 96, 0.9);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: var(--background);
+    
+    max-height: 100vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+    margin: 3rem 0 4rem 0;
+    text-align: center;
+}
