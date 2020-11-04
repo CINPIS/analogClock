@@ -51,7 +51,7 @@ div.clock div.clock-face div.clock-hand{
     position: absolute;
     transform-origin: 100%;
     transition: all 0.10s;
-    transition-timing-function: cubic-bezier(2,2,2,2);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
 div.clock div.clock-face div.hour-hand{
